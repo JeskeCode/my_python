@@ -1,0 +1,21 @@
+How to use config-highlight.cfg
+Installation:
+1) Ensure IDLE is closed
+2) Open your .idlerc file, usually in your home directory
+3) Paste in the settings and save
+4) Open IDLE, Options -> Configure
+5) Under the Highlighting tab, Obsidian should now be a custom theme available in the dropdown list.
+
+
+On Windows, you will want to create/edit %userprofile%.idlerc\config-highlight.cfg then proceed with steps 3 - 5.
+
+On Ubuntu you need to go into the .idlerc folder and edit 2 files
+config-main.cfg
+Add the following,
+[Theme]
+default = 0
+name = Obsidian
+
+In, config-highlight.cfg, copy and paste the code above.
+
+You will probably need to create both of those files, and it may be better to go in to Options -> configure and save the default one so it generates the files itself, then edit them to add in the above theme.
