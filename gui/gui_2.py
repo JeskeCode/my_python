@@ -1,14 +1,9 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+
 
 '''
-ZetCode wxPython tutorial
-
+wxPython tutorial
 This example shows a simple menu.
-
-author: Jan Bodnar
 website: www.zetcode.com
-last modified: September 2011
 '''
 
 import wx

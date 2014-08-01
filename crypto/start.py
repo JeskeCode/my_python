@@ -1,5 +1,6 @@
 import base64
 
+
 # http://pymotw.com/2/base64/
 
 original_string = 'This is the data, in the clear.'
@@ -10,5 +11,6 @@ print 'Encoded :', encoded_string
 
 decoded_string = base64.b64decode(encoded_string)
 print 'Decoded :', decoded_string
-    
-    
+
+
+
