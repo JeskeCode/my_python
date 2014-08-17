@@ -1,7 +1,5 @@
 # create a mapping for state abbreviation
 
-
-
 states = {
     'Oregon': 'OR',
     'Florida': 'FL',
@@ -40,4 +38,5 @@ print "Florida has: ", cities[states['Florida']]
 print '-' * 10
 for state, abbrev in states.items():
     print "%s has the city %s" % (state, abbrev)
+    
 
